@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+body{
+  background-color : rgba(246, 248, 249, 1);
+}
+
+
+
+
+
+/* -----Navbar----- */
+
+
+
+
+
+.Navbar{
+  margin-top: 60px;
+  margin-bottom: 85px
+}
+
+
+.Navbar img{
+  width:600px;
+  height:130px;
+  display: block;
+  margin:auto;
+}
+
+
+
+
+
+
+
+/* ------Show Form Button------ */
+
+
+
+
+
+.ShowButton{
+  position: relative;
+  width: 500px;
+  height: 50px;
+  bottom: 55px;
+  background-color: rgba(214, 208, 172, 1);
+  font-size: 24px;
+  color: black;
+  border: 1px solid rgba(122, 150, 183, 1);
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+}
+
+
+
+
+
+
+/* -----Form Top----- */
+
+
+
+
+
+.mainBlock{
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin-top:60px;
+  height: 45px;
+  font-size: 24px;
+  background-color: rgba(122, 150, 183, 1);
+  color: white;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  border: 1px solid rgba(122, 150, 183, 1);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+
+
+
+
+/* -----Bottom Form----- */
+
+
+
+
+
+form{
+  font-size: 20px;
+  padding:40px;
+  height: 360px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgba(122, 150, 183, 1);
+  margin-bottom: 100px;
+ }
+
+
+
+label{
+  font-size: 15px;
+  margin:10px 10px 5px 10px;
+}
+
+input{
+  margin:0 10px 10px 10px;
+  height:26px;
+  border: 1px solid rgba(122, 150, 183, 1);
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+}
+ 
+
+
+.Users, .AddUsers{
+  margin-top: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.formGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.column{
+  display: flex; 
+  flex-direction: column;
+}
+
+i{
+  cursor: pointer;
+}
+
+.AddUsers .Column .block .bottomBlock button{
+  border-radius: 20px;
+  margin-top:30px;
+  color: white;
+  font-size: 20px;
+  width:100%;
+  height:46px;
+  background-color: rgba(122, 150, 183, 1);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.UsersBB{
+  text-align: center;
+  padding:40px;
+  height: 200px;
+  padding:0;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 1px solid rgba(122, 150, 183, 1);
+}
+
+h6{
+  font-size: 16px;
+  margin-top: 30px;
+  
+}
+
+.UserListImg img{
+  width:42%;
+  height:109px;
+}
+
+
+@media only screen and (max-width: 479px) {
+  .Navbar img{
+   margin: 0 0 10px 10px;
+   width:95%;
+  }
+
+  form{
+    width:330px;
+  }
+
+  .mainBlock{
+    width:370px;
+  }
+
+  .ShowButton{
+    width:280px;
+  }
+
+  
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .Navbar img{
+    margin: 0 0 10px 10px;
+    width:98%;
+   }
+ 
+   form{
+     width:430px;
+   }
+ 
+   .mainBlock{
+     width:470px;
+   }
+ 
+   .ShowButton{
+     width:480px;
+   }
+}
+   

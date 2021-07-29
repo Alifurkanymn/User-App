@@ -1,0 +1,26 @@
+{
+    
+  "users": [
+  {
+    "id" : "uniq-1",
+    "name" : "Ali",
+    "salary" : "7000",
+    "pnumber" : "5437324435",
+    "department" : "Front-End"
+  },
+  {
+    "id" : "uniq-2",
+    "name" : "Furkan",
+    "salary" : "4000",
+    "pnumber" : "5436834182",
+    "department" : "ArGe"
+  },
+  {
+    "id" : "uniq-3",
+    "name" : "Ahmet",
+    "salary" : "7000",
+    "pnumber" : "5452198985",
+    "department" : "Pazarlama"
+  }
+]
+}
