@@ -68,6 +68,52 @@ body{
 
 
 
+.bottomBlock{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  
+}
+
+.bottomBlock h6{
+  display:flex;
+  margin-top: 0;
+  flex-direction: row;
+}
+
+.bottomBlock input{
+  border:none;
+  background-color: rgba(246, 248, 249, 1) ;
+  height:26px;
+  font-size: 16px;
+  margin: -5px 0 0 20px;
+}
+
+.bottomBlockActive input{
+  border:none;
+  background-color: rgba(246, 248, 249, 1) ;
+  height:26px;
+  border: 1px solid rgba(122, 150, 183, 1);
+  border-radius:20px;
+  -webkit-border-radius:20px;
+  -moz-border-radius:20px;
+  -ms-border-radius:20px;
+  -o-border-radius:20px;
+  font-size: 16px;
+  margin: -5px 0 0 20px;
+}
+
+.bottomBlockRow{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  text-align:center;
+  margin-left: 100px;
+}
+
+.bottomBlockStyle{
+  margin-top:25px
+}
 
 
 .mainBlock{
@@ -114,7 +160,7 @@ label{
   margin:10px 10px 5px 10px;
 }
 
-input{
+.formGroup input{
   margin:0 10px 10px 10px;
   height:26px;
   border: 1px solid rgba(122, 150, 183, 1);
@@ -132,6 +178,10 @@ input{
   list-style: none;
   display: flex;
   justify-content: center;
+}
+
+.iconRow i{
+margin-left: 20px;
 }
 
 
@@ -168,10 +218,7 @@ i{
 }
 
 .UsersBB{
-  text-align: center;
-  padding:40px;
   height: 200px;
-  padding:0;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border: 1px solid rgba(122, 150, 183, 1);
@@ -231,4 +278,9 @@ h6{
      width:480px;
    }
 }
+
+
+
    
+
+
